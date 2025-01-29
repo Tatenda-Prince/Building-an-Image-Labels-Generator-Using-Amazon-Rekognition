@@ -210,7 +210,7 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 4.On Event type click the block that says ALL OBJECT create events 
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/be4e9006a6bbf3d564a1534baf7e0e2526ef3f13/img/Screenshot%202025-01-29%20162310.png)
 
 
 5.On destination choose Lambda and choose the lambda function we created before see example-
