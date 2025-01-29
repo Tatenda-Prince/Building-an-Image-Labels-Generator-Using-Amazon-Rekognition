@@ -116,7 +116,7 @@ DynamoDB: dynamodb:`PutItem`
 3.Now add Permissions choose the existing role that we have created ealier see example below-
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/56967e641aba26d0d21a2535db3ea6e423aad9ff/img/Screenshot%202025-01-29%20161726.png)
 
 
 click create
