@@ -73,7 +73,37 @@ Primary Key enter: `ImageId` (string) Unique identifier for each image
 
 3.If your table has status 'ACTIVE' which means it was successfully created see example-
 
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/e6d9b22e7b67a493651dc278c7df3527600f482e/img/Screenshot%202025-01-29%20161032.png)
+
+
+## Step: Create a Role for our Lambda 
+
+1.Navigate to "IAM" home console search Roles on your left hand side click on it and you will see a orange button that says create role 
+
+2.AWS Services choose Lambda
+
 ![image_alt]()
+
+
+3.On Policies we are to choose three policies
+
+Amazon S3:`s3:GetObject`
+
+Amazon Rekognition: `rekognition:DetectLabels`
+
+DynamoDB: dynamodb:`PutItem`
+
+
+![image_alt]()
+
+
+
+4.Give your Role a name see example- then click create Role 
+
+
+![image_alt]()
+
+
 
 
 
