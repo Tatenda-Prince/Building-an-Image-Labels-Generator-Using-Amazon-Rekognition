@@ -82,7 +82,7 @@ Primary Key enter: `ImageId` (string) Unique identifier for each image
 
 2.AWS Services choose Lambda
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/76c8b7d942e950acfd5c01af038cd2afb7d9c2e3/img/Screenshot%202025-01-29%20161335.png)
 
 
 3.On Policies we are to choose three policies
