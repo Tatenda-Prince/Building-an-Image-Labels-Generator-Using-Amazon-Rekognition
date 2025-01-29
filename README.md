@@ -101,7 +101,7 @@ DynamoDB: dynamodb:`PutItem`
 4.Give your Role a name see example- then click create Role 
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/21b8902789adcf5e8cf45194ad0e227ac1644a80/img/Screenshot%202025-01-29%20161600.png)
 
 
 
