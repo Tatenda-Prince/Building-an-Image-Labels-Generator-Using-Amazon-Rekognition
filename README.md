@@ -42,4 +42,27 @@ This project automates image analysis using AWS services. Users upload images to
 You work at a company that deals with videos and films and you are tasked with detecting labels to improve searchability.
 
 
+## Step 1: Set up Amazon S3 Bucket
+
+
+1.Open your AWS Management Console and navigate to the home console, search for "Amazon S3" click the orange button to create your bucket.
+
+
+2.Name your bucket and it must globally unique and scroll down leave everything as default until you see the create button and click to create.
+
+
+![image_alt]()
+
+
+3.Now that our bucket is successfully created see example, leave the bucket empty for do upload anything.
+
+![image_alt]()
+
+
+
+
+
+
+
+
 
