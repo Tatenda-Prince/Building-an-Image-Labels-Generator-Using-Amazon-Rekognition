@@ -235,7 +235,7 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 2.See the example below for me uploaded a image called download.jpg 
 
 
-![imaga_alt]()
+![imaga_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/f2253f7a7fe2382f21abf2f6698dc7ccca3d2f65/img/Screenshot%202025-01-29%20162626.png)
 
 
 
