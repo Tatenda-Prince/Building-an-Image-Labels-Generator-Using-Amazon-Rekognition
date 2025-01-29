@@ -39,5 +39,7 @@ This project automates image analysis using AWS services. Users upload images to
 
 ## Use case
 
-Yoy work at a company that deasl with videos and films and you are tasked with detecting labels to improve searchability.
+You work at a company that deals with videos and films and you are tasked with detecting labels to improve searchability.
+
+
 
