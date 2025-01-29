@@ -122,7 +122,7 @@ DynamoDB: dynamodb:`PutItem`
 click create
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/e5defd2842aac3d87e82186a538d998071ad5410/img/Screenshot%202025-01-29%20162003.png)
 
 
 
