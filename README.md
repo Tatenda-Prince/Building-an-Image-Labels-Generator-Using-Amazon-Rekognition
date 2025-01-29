@@ -229,7 +229,7 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 
 1.Head back to your S3 bucket and upload a image file 
 
-![imaga_alt]()
+![imaga_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/a420748f62dce98f7fa297eff20700d02b9ceef9/img/Screenshot%202025-01-29%20162506.png)
 
 
 2.See the example below for me uploaded a image called download.jpg 
