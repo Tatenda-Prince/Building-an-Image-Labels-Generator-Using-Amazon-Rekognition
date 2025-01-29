@@ -110,10 +110,11 @@ DynamoDB: dynamodb:`PutItem`
 
 2.Choose Start  Author from Scratch and give your lambda function a name
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/4f36ea9e52f85dbcb287c9575cae503ea8d5366f/img/Screenshot%202025-01-29%20161707.png)
 
 
 3.Now add Permissions choose the existing role that we have created ealier see example below-
+
 
 ![image_alt]()
 
