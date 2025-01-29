@@ -222,7 +222,7 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 6.Now head back to your lambda function and if the event trigger was successfully added.
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/e24272bb82787d0c583b749d86298351730f26c6/img/Screenshot%202025-01-29%20162844.png)
 
 
 
