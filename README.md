@@ -198,7 +198,7 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 2.Scroll dowm until you see the event notification block and then click create event 
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/8ace6cb74cc11962b365addc4713df4dbe5ccf0e/img/Screenshot%202025-01-29%20162209.png)
 
 
 3.Enter yor event name and leave everything as default
