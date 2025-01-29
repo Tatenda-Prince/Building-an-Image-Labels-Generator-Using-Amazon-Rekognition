@@ -54,9 +54,33 @@ You work at a company that deals with videos and films and you are tasked with d
 ![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/76433e4f169bc2a1a96aaa31346eab88bfb02d21/img/Screenshot%202025-01-29%20160819.png)
 
 
-3.Now that our bucket is successfully created see example, leave the bucket empty for do upload anything.
+3.Now that our bucket is successfully created see example, leave the bucket empty for now don't upload anything.
+
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/3a852b293767898e2cc5c3efd74cc738a299eb2b/img/Screenshot%202025-01-29%20160847.png)
+
+
+## Step 2: Set up DynamoDB Table
+
+1.Navigate to the home console, search for "DynanoDB" click the orange button to create table.
+
+2.Name your table and scroll down leave everything as default until you see the create button and click to create.
+
+Primary Key enter: `ImageId` (string) Unique identifier for each image
 
 ![image_alt]()
+
+
+
+3.If your table has status 'ACTIVE' which means it was successfully created see example-
+
+![image_alt]()
+
+
+
+
+
+
+
 
 
 
