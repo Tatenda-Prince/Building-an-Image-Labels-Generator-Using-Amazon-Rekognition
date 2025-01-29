@@ -201,6 +201,36 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 ![image_alt]()
 
 
+3.Enter yor event name and leave everything as default
+
+
+![image_alt]()
+
+
+4.On Event type click the block that says ALL OBJECT create events 
+
+
+![image_alt]()
+
+
+5.On destination choose Lambda and choose the lambda function we created before see example-
+
+
+![image_alt]()
+
+
+6.Now head back to your lambda function and if the event trigger was successfully added.
+
+
+![image_alt]()
+
+
+
+
+
+
+
+
 
 
 
