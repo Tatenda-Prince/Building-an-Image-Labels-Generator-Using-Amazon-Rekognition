@@ -94,7 +94,7 @@ Amazon Rekognition: `rekognition:DetectLabels`
 DynamoDB: dynamodb:`PutItem`
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/43bb627807bcae1d2f40c9856c3e21e92056f30d/img/Screenshot%202025-01-29%20161511.png)
 
 
 
