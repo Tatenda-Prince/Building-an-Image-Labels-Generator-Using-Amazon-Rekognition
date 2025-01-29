@@ -67,7 +67,7 @@ You work at a company that deals with videos and films and you are tasked with d
 
 Primary Key enter: `ImageId` (string) Unique identifier for each image
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/454c5c88faf959ffca879c83b97a2bbac9f166b5/img/Screenshot%202025-01-29%20161003.png)
 
 
 
