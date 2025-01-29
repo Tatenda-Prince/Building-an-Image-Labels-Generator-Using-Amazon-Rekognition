@@ -242,7 +242,7 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 Here is the sample imaga i used 
 
 
-![imaga_alt]()
+![imaga_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/36f05d980b4f2e79c65a5201a4b8b5ceaeb81472/img/download.jpg)
 
 
 
@@ -250,6 +250,14 @@ Here is the sample imaga i used
 
 
 ![images_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/504d7da4ba6917687011c1583d5c4ee3f96f2e51/img/Screenshot%202025-01-29%20163325.png)
+
+
+# Congratulations 
+
+We have successfully uploaded images to an S3 bucket, which triggers an AWS Lambda function. The function sends the image to Amazon Rekognition for analysis, such as object detection, facial recognition, or text extraction. The results are then stored in Amazon DynamoDB for easy access and retrieval.
+
+
+
 
 
 
