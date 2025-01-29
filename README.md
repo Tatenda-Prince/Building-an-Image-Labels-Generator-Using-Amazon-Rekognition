@@ -76,7 +76,7 @@ Primary Key enter: `ImageId` (string) Unique identifier for each image
 ![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/e6d9b22e7b67a493651dc278c7df3527600f482e/img/Screenshot%202025-01-29%20161032.png)
 
 
-## Step: Create a Role for our Lambda 
+## Step 3: Create a Role for our Lambda 
 
 1.Navigate to "IAM" home console search Roles on your left hand side click on it and you will see a orange button that says create role 
 
@@ -102,6 +102,107 @@ DynamoDB: dynamodb:`PutItem`
 
 
 ![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/21b8902789adcf5e8cf45194ad0e227ac1644a80/img/Screenshot%202025-01-29%20161600.png)
+
+
+## Step 4: Create a lambda Lambda Function
+
+1.Search for Lambda click on the orange buttun to create a function see example below-
+
+2.Choose Start  Author from Scratch and give your lambda function a name
+
+![image_alt]()
+
+
+3.Now add Permissions choose the existing role that we have created ealier see example below-
+
+![image_alt]()
+
+
+click create
+
+
+![image_alt]()
+
+
+
+4.Now that our lambda function was successfully created copy the code below and paste it on the lambda code block and click deploy.
+
+```python
+import boto3
+import json
+import uuid
+from datetime import datetime
+
+# Initialize clients
+s3 = boto3.client('s3')
+rekognition = boto3.client('rekognition')
+dynamodb = boto3.resource('dynamodb')
+table = dynamodb.Table('images-labels-table')  # Replace with your DynamoDB table name
+
+def lambda_handler(event, context):
+    # Get the S3 bucket and object key from the event
+    bucket_name = event['Records'][0]['s3']['bucket']['name']
+    object_key = event['Records'][0]['s3']['object']['key']
+    
+    # Call Amazon Rekognition to detect labels
+    response = rekognition.detect_labels(
+        Image={
+            'S3Object': {
+                'Bucket': bucket_name,
+                'Name': object_key
+            }
+        },
+        MaxLabels=10,  # Adjust as needed
+        MinConfidence=70  # Adjust confidence threshold
+    )
+    
+    # Extract labels
+    labels = [label['Name'] for label in response['Labels']]
+    
+    # Save data to DynamoDB
+    image_id = str(uuid.uuid4())  # Generate a unique ID for the image
+    timestamp = datetime.utcnow().isoformat()
+    
+    table.put_item(
+        Item={
+            'ImageID': image_id,
+            'S3Bucket': bucket_name,
+            'S3Key': object_key,
+            'Labels': labels,
+            'Timestamp': timestamp
+        }
+    )
+    
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Labels detected and saved to DynamoDB!')
+    }
+
+```
+
+
+## code explanation
+
+
+This AWS Lambda function automatically processes images uploaded to an S3 bucket by detecting labels using Amazon Rekognition and storing the results in a DynamoDB table. When an image is uploaded, the function retrieves the S3 bucket and object key from the event, calls Rekognition to analyze the image, and extracts up to 10 labels with at least 70% confidence.
+
+It then generates a unique ImageID, records a timestamp, and saves the image metadata (bucket name, object key, detected labels, and timestamp) in the DynamoDB table. Finally, it returns a success response indicating that the labels have been detected and stored.
+
+
+## Step 5: Configure S3 Event Notification
+
+1.Now lets head back to our S3 Bucket the we created ealier under "Properties" to create a event notification that will trigger lambda when we upload a image
+
+
+2.Scroll dowm until you see the event notification block and then click create event 
+
+
+![image_alt]()
+
+
+
+
+
 
 
 
