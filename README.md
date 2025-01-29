@@ -225,6 +225,32 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 ![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/e24272bb82787d0c583b749d86298351730f26c6/img/Screenshot%202025-01-29%20162844.png)
 
 
+## Step 6: Test the workflow
+
+1.Head back to your S3 bucket and upload a image file 
+
+![imaga_alt]()
+
+
+2.See the example below for me uploaded a image called download.jpg 
+
+
+![imaga_alt]()
+
+
+
+Here is the sample imaga i used 
+
+
+![imaga_alt]()
+
+
+
+3.After you have uploaded the image into S3 navigate to DynamoDB and under "explore tables" you should be able to see a new item added to your table with the `labels` attrubute that were detected by amazon Rekognition. 
+
+
+
+
 
 
 
