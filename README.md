@@ -51,7 +51,7 @@ You work at a company that deals with videos and films and you are tasked with d
 2.Name your bucket and it must globally unique and scroll down leave everything as default until you see the create button and click to create.
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/76433e4f169bc2a1a96aaa31346eab88bfb02d21/img/Screenshot%202025-01-29%20160819.png)
 
 
 3.Now that our bucket is successfully created see example, leave the bucket empty for do upload anything.
