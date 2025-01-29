@@ -204,7 +204,7 @@ It then generates a unique ImageID, records a timestamp, and saves the image met
 3.Enter yor event name and leave everything as default
 
 
-![image_alt]()
+![image_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/646f121dc1552983d8f416016d1794d18979d369/img/Screenshot%202025-01-29%20162255.png)
 
 
 4.On Event type click the block that says ALL OBJECT create events 
