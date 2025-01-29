@@ -249,6 +249,9 @@ Here is the sample imaga i used
 3.After you have uploaded the image into S3 navigate to DynamoDB and under "explore tables" you should be able to see a new item added to your table with the `labels` attrubute that were detected by amazon Rekognition. 
 
 
+![images_alt](https://github.com/Tatenda-Prince/Building-an-Image-Labels-Generator-Using-Amazon-Rekognition/blob/504d7da4ba6917687011c1583d5c4ee3f96f2e51/img/Screenshot%202025-01-29%20163325.png)
+
+
 
 
 
