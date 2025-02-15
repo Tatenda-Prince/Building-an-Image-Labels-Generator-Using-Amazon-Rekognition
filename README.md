@@ -1,4 +1,4 @@
-# Building-an-Image-Labels-Generator-Using-Amazon-Rekognition
+# AI-Powered Image Labeling System with Amazon Rekognition
 
 "Machine Learning"
 
